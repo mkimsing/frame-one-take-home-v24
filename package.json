@@ -1,0 +1,17 @@
+{
+  "name": "take-home",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "dev:backend": "pnpm -filter backend run dev",
+    "dev:frontend": "pnpm -filter frontend run dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": "^20.0.0"
+  }
+}

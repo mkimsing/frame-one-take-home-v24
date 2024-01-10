@@ -1,0 +1,28 @@
+.join-button {
+    background-color: green;
+    color: white;
+    margin: 10px;
+}
+
+.join-button:disabled {
+    background-color: grey;
+    color: white;
+    margin: 10px;
+}
+
+.leave-button {
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+.leave-button:disabled {
+    background-color: grey;
+    color: white;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
