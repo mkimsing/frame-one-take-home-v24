@@ -5,12 +5,14 @@ export default function Leaderboard() {
   const { leaderboardData } = useLeaderboard();
 
   return (
-    <div>
-      <div>Community Experience Point Leaders</div>
+    <div className="flex flex-col border-2 p-4 rounded-xl mt-5 max-w-screen-md mx-auto">
+      <p className="text-2xl font-bold mb-4">
+        Community Experience Point Leaders
+      </p>
       {leaderboardData &&
         leaderboardData.map((entry, index) => {
           return (
-            <div className="mb-4">
+            <div className="mb-2">
               <LeaderboardItem entry={entry} rank={index + 1} />
             </div>
           );

@@ -15,9 +15,7 @@ function App() {
       <div>
         <UserCommunityRelationshipManager />
       </div>
-      <div>
-        <Leaderboard />
-      </div>
+      <Leaderboard />
     </>
   );
 }
